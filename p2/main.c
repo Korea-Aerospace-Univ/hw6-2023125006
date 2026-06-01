@@ -24,8 +24,8 @@ int main(void) {
     
     while (p < a + N) {          // p가 배열 a의 끝에 도달할 때까지 반복
         printf(" %d", *p + *q);  // a[i]와 b[N-1-i]를 더해 출력 (공백 먼저)
-        p++;  // p는 앞으로 이동
-        q--;  // q는 뒤로 이동
+        p++;  // p는 앞
+        q--;  // q는 뒤
     }
     
     printf("\n");
