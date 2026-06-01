@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     char x[10];      // 10개의 문자를 저장할 배열
     
     // 문자열을 한 번에 입력받아 배열에 저장
