@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int N;
     int a[20], b[20];  // 두 개의 정수 배열 (최대 20개)
     
